@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" /> <!--I have added this in order to ensure the scaling is accurate on mobile-->
     <meta charset="utf-8">
-    <title>STEVEN UNIVERSE: THE MOVIE</title>
-    <link rel="stylesheet" href="CSS\style.css">
+    <title>STEVEN UNIVERSE: THE MOVIE</title> <!--I have put this in the <title> tag so it gives the browser title bar a name-->
+    <link rel="stylesheet" href="CSS\style.css"> <!--This is to link the style sheet to home.html, in order for the styles to show up on the website homepage-->
   </head>
-  <body>
-    <div class="container0">
-      <div class="container1">
-        <h1>STEVEN UNIVERSE: THE MOVIE</h1>
-        <nav>
-          <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="cast.html">Cast</a></li>
+  <body> <!--This <body> tag shows the main and visable content of my webpage-->
+    <div class="container0"> <!--I have used this <div> tag in order to group all my content together-->
+      <div class="container1"> <!--This is a <div> tag to group together my title (<h1>) and navigation bar (<nav>)-->
+        <h1>STEVEN UNIVERSE: THE MOVIE</h1> <!--This <h1> tag is for my title-->
+        <nav> <!--This <nav> tag is representing the navigation bar-->
+          <ul> <!--This <ul> tag is for the navigation bar; grouping the links together with an <ul> tag as they do not have a numerical ordering-->
+            <li><a href="home.html">Home</a></li> <!--The <li> tag used represents that this link is an items in a list--> <!--The <a> tag is used to link this page to the home page-->
+            <li><a href="cast.html">Cast</a></li> <!--The <li> tag used represents that this link is an items in a list--> <!--The <a> tag is used to link this page to the cast page-->
           </ul>
         </nav>
       </div>
-      <section>
-        <p>Steven and his friends look forward to a life of peace and quiet in Beach City. Their plans get disrupted, however, when a bad Gem appears and tries to drain the Earth of all its life force. The Crystal Gems then only have 48 hours to put an end to the threat. Directed by Rebecca Sugar.</p>
+      <section> <!--The <section> tag is grouping the synopses and trailer together-->
+        <p>Steven and his friends look forward to a life of peace and quiet in Beach City. Their plans get disrupted, however, when a bad Gem appears and tries to drain the Earth of all its life force. The Crystal Gems then only have 48 hours to put an end to the threat. Directed by Rebecca Sugar.</p> <!--This <p> tag is used to show that this text (the synopses) is a paragraph-->
       </section>
-      <section class="trailer">
-        <video controls width="50%" height="50%" poster="Image\trailercover.jpg" >
-          <source src="Video\Steven Universe _ Steven Universe_ The Movie Trailer _ Cartoon Network UK ________.mp4" type="video/mp4">
-          <source src="Video\Steven Universe _ Steven Universe_ The Movie Trailer _ Cartoon Network UK ________.webm" type="video/webm">
+      <section class="trailer"> <!--I have used this <section> tag to section the trailer, giving it a class so I can style it seperately from other <section> tags in CSS-->
+        <video controls width="50%" height="50%" poster="Image\trailercover.jpg" > <!--This <video> tag is used to add a video (the trailer) to my website, adding "controls" in order to play and pause the video-->
+          <source src="Video\Steven Universe _ Steven Universe_ The Movie Trailer _ Cartoon Network UK ________.mp4" type="video/mp4"> <!--This source tag is used to give the browser a range of alternative video files for the browser to choose from-->
+          <source src="Video\Steven Universe _ Steven Universe_ The Movie Trailer _ Cartoon Network UK ________.webm" type="video/webm"> <!--This source tag is used to give the browser a range of alternative video files for the browser to choose from-->
         </video>
       </section>
-      <footer>
-        <p class="small">Contact</p>
-        <p class="small">Phone: 02222 333 444</p>
-        <p class="small">Email: SU@gmail.com</p>
+      <footer> <!--This <footer> tag is used to add a footer to my webpage, which contains contact information-->
+        <p class="small">Contact</p> <!--This <p> tag is used to define that this is a paragraph (or just some text), giving it a different class so I can give it a seperate style than the other <p> tags in CSS-->
+        <p class="small">Phone: 02222 333 444</p> <!--This <p> tag is used to define that this is a paragraph (or just some text), giving it a different class so I can give it a seperate style than the other <p> tags in CSS-->
+        <p class="small">Email: SU@gmail.com</p> <!--This <p> tag is used to define that this is a paragraph (or just some text), giving it a different class so I can give it a seperate style than the other <p> tags in CSS-->
       </footer>
     </div>
   </body>
-</html>
+</html> 
