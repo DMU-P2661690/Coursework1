@@ -1,76 +1,76 @@
 body {
-  background-image: url("../Image/ground.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  background-image: url("../Image/ground.jpg"); /*This is to make the background an image*/
+  background-repeat: no-repeat; /*This is so the background image doesnt repeat*/
+  background-size: cover; /*This is so the background image fills the entire page*/
+  font-family: Arial, Helvetica, sans-serif; /*This is to change the font of every text on the website*/
+} /*This is styling the entire body of text*/
 h1 {
-  font-size: 50px;
-  color: #2c0824;
-  text-align:center;
-  padding-top: 30px;
-}
+  font-size: 50px; /*This is to make the font size of the heading 50px*/
+  color: #2c0824; /*This is to change the colour of the h1 text*/
+  text-align:center; /*This is to centralise the h1 tag*/
+  padding-top: 30px; /*This is to add padding between the top of the page and the heading*/
+} /*This is styling all h1 tags*/
 h2 {
-  font-size: 40px;
-  color: #2c0824;
-}
+  font-size: 40px; /*This is to make the font size of the h2 tag 40px*/
+  color: #2c0824; /*This is to change the colour of the h2 text*/
+} /*This is styling all h2 tags*/
 p {
-  text-align-last: left;
-  font-size: 25px;
-  color: #2c0824;
-}
+  text-align-last: left; /*This is to allign all p tags to the left*/
+  font-size: 25px; /*This is to make all p tags have a font size of 25px*/
+  color: #2c0824; /*This is to change the colour of all p tags*/
+} /*This is styling all p tags*/
 img {
-  margin-right: 20px;
-  max-width: 100%;
-  width: 300px
-}
-a {font-size: 25px}
+  margin-right: 20px; /*This is to assure that the image stays within 20px of the page*/
+  max-width: 100%; /*This is so the image has a max-width of 100%*/
+  width: 300px /*This is so the image is 300px wide*/
+} /*This is styling all img tags*/
+a {font-size: 25px /*This is so all a tags have a font size of 25px*/} /*This is styling all a tags*/
 section {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-}
-source{max-width: 100%;}
+  width: 100%; /*This is so the section takes up 100% of the width*/
+  height: auto; /*This is so the height automatically adjusts to let the content be correctly displayed*/
+  max-width: 100%; /*This is so the section has a max-width of 100%*/
+} /*This is styling all section tags*/
+source{max-width: 100%;} /*This is styling all source tags*/
 .container0 {
-  background-color: white;
-  max-width: 90%;
-  margin:40px auto;
-  outline-style: solid; color: white;
-  outline-width: thick;
-}
-.container1 {max-width: 100%;}
+  background-color: white; /*This is so the background colour of container0 is white*/
+  max-width: 90%; /*This is so the container has a max width of 90%*/
+  margin:40px auto; /*This is so the content of container0 stays within 40px of the page*/
+  outline-style: solid; color: white; /*This is to give container0 a white border*/
+  outline-width: thick; /*This is so the border has a thick width*/
+} /*This is styling all div tags with a class of "container0"*/
+.container1 {max-width: 100%; /*This is so container1 has a max width of 100%*/} /*This is styling all div tags with a class of "container1"*/
 .container2 {
-  display: flex;
-  padding: 5px 0 0 0;
-  flex-direction:column;
-}
-.container2:last-of-type {padding-bottom:5px;}
-.container-sub {flex-direction: column;}
+  display: flex; /*Defines that this is a flex container*/
+  padding: 5px 0 0 0; /*Gives container 2 a padding of 5px above*/
+  flex-direction:column; /*This is so the direction of the flex is going top to bottom/
+} /*This is styling all div tags with a class of "container2"*/
+.container2:last-of-type {padding-bottom:5px; /*Gives container2:last-of-type a padding of 5px above*/} /*This is styling all div tags with a class of "container2:last-of-type"*/
+.container-sub {flex-direction: column; /*This is so the direction of the flex is going top to bottom/} /*This is styling all div tags with a class of "container-sub"*/
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #d24694;
-  text-align: center;
-}
-li {display: inline-block;}
+  list-style-type: none; /*This is so the list has no style type*/
+  margin: 0; /*Gives the ul tag a margin of 0*/
+  padding: 0; /*Gives the ul tag a padding of 0*/
+  overflow: hidden; /*This is so the overflow is clipped and the rest of the content is hidden*/
+  background-color: #d24694; /*This is to change the background of the navigation bar (ul tag)*/
+  text-align: center; /*This is to align the navigation bar (ul tag) in the center*/
+} /*This is styling all ul tags*/
+li {display: inline-block; /*sets a width and height of the element*/} /*This is styling all li tags*/
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover {background-color: #832851;}
-video {width:100%;}
+  display: block; /*Displays the element as a block element: It starts on a new line*/
+  color: white; /*The colour of the text in the navigation bar is white*/
+  text-align: center; /*Centralises the navigation bar*/
+  padding: 14px 16px; /*Creates space around the navigation bar*/
+  text-decoration: none; /*Erases any text decoration (like underlines under text)*/
+} /*This is styling all li a tags*/
+li a:hover {background-color: #832851; /*Changes the background colour when you hover over the element*/} /*This is styling all li a:hover tags*/
+video {width:100%; /*Gives every video a width of 100%*/} /*This is styling all video tags*/
 footer {
-  background-color: #832851;
-  padding:20px;
-}
+  background-color: #832851; /*Changes the background colour of the footer*/
+  padding:20px; /*Gives the footer a surrounding padding of 20px*/
+} /*This is styling all footer tags*/
 footer p {
-  color: white;
-  margin:0;
-}
-.small {font-size: 20px;}
-@media screen and (min-width:500px){.container2{flex-direction:row;}}
+  color: white; /*Colours the text white*/
+  margin:0; /*Takes away the space between each text within the footer*/
+} /*This is styling all footer tags with a class of p*/
+.small {font-size: 20px; /*Gives the footer font-size a size of 20px*/}
+@media screen and (min-width:500px){.container2{flex-direction:row;}} /*This is to ensure my website scales correctly on mobile view*/
